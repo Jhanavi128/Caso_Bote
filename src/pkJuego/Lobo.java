@@ -4,15 +4,6 @@ public class Lobo {
     private String nombre = "Lobo";
     private String lado = "I"; 
 
-    
-
-    public void mover() {
-        if (lado.equals("I")) {
-            lado = "D";
-        } else {
-            lado = "I";
-        }
-    }
 
     public void comer(Caperucita caperucita) {
         System.out.println(nombre + " se come a " + caperucita.getNombre());
